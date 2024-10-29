@@ -1,0 +1,63 @@
+.images{
+  height: 140px;
+  width: 140px;
+  border-radius: 100px;
+  margin: 48px 20px 8px 20px;
+  display: flex;
+  border: solid rgb(160, 160, 169);
+  
+}
+#container{
+  float: left;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:stretch;
+  justify-items: center;
+  width: 30%;
+  border-radius: 30px;
+  align-content: center;
+  border: solid rgb(175, 166, 184);
+  color: rgb(131, 126, 116);
+  margin: -140px 30px 24px 187px;
+}
+#name{
+  align-items: flex-start;
+  text-align: start;
+  font-size:larger;
+  font-weight:bolder ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+}
+.containers{
+  background-color: beige;
+display: block;
+float: right;
+border: solid cadetblue;
+margin: -400px 30px 100px 180px;
+border-radius: 20px;
+text-align: center;
+padding-bottom: 8px;
+padding: 20px;
+width: 30%;
+position: relative;
+}
+.containers h2{
+  margin-bottom:  20px;
+  color: blueviolet;
+}
+.containers button{
+  margin-right: 4px;
+}
+#use{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -160px; 
+}
+#name:hover{
+  color: rgb(230, 181, 138);
+}
+.images:hover{
+  border:  solid rgb(160, 160, 189);
+}
